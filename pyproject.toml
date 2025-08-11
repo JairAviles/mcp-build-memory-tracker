@@ -1,0 +1,10 @@
+[project]
+name = "mcp-build-memory-tracker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.0"
+dependencies = [
+    "mcp[cli]>=1.12.4",
+    "openai>=1.99.6",
+]
